@@ -1,0 +1,6 @@
+kong:
+  helmArgs:
+    plugins:
+      configMaps:
+        - pluginName: plugin-token
+          name: kong-plugin-plugin-token
